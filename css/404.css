@@ -1,0 +1,87 @@
+.pl-404{
+    position: relative;
+    height: -webkit-fill-available;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+}
+.pl-404-animation{
+    width: 100%;
+    right: -100%;
+    top: 50%;
+    position: relative;
+    transition-duration: 3s;
+    transform: translateX(-100%);
+}
+.pl-404-number{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+}
+
+.pl-404-red{
+    transform: translateX(-150%) translateY(-50%);
+}
+.pl-404-yellow{
+    transform: translateX(-50%) translateY(-50%);
+}
+.pl-404-blue{
+    transform: translateX(50%) translateY(-50%);
+}
+
+.pl-404-chip{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    transition-duration: 6s;
+}
+.pl-404-chip-red, .pl-404-chip-blue{
+    top: 25px;
+    left: -25px;
+}
+.pl-404-chip-yellow{
+    top: 50px;
+    left: 25px;
+}
+
+.pl-404-4a1{
+    transform: rotate(450deg);
+}
+.pl-404-4a2{
+    transform: rotate(360deg) translateX(75px) translateY(50px);
+}
+.pl-404-4a3{
+    transform: rotate(-270deg) translateX(50px) translateY(-75px);
+}
+
+
+.pl-404-01{
+    transform: rotate(405deg) translateX(0px) translateY(50px);
+}
+.pl-404-02{
+    transform: rotate(-405deg)translateX(0px) translateY(50px);
+}
+.pl-404-03{
+    transform: rotate(495deg)translateX(0px) translateY(50px);
+}
+.pl-404-04{
+    transform: rotate(-495deg)translateX(0px) translateY(50px);
+}
+
+
+
+.pl-404-4b1{
+    transform: rotate(620deg);
+}
+.pl-404-4b2{
+    transform: rotate(160deg) translateX(-20px) translateY(-50px);
+}
+.pl-404-4b3{
+    transform: rotate(-450deg) translateX(-60px) translateY(80px);
+}

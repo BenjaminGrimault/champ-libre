@@ -2,7 +2,6 @@
  * OVERRIDE
  */
 
-
 .mobile-container-body {
     background-color: #212529;
     color: #FFFFFF;
@@ -34,6 +33,12 @@
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+}
+.pl-content {
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 120px;
+    overflow: hidden;
 }
 
 /*
@@ -469,25 +474,6 @@ input[type="password"].danger {
 }
 .pl-logo-c {
     margin-left: 30px
-}
-
-.pl-logo-animation:hover .pl-logo-blue {
-    transform: scale(1) translateX(500px) translateY(15px) rotate(900deg);
-}
-.pl-logo-animation:hover .pl-logo-red {
-    transform: translateX(720px) translateY(25px) rotate(-540deg);
-}
-.pl-logo-animation:hover .pl-logo-yellow {
-    transform: scale(1) translateX(650px) rotate(-900deg);
-}
-.pl-logo-animation:hover .pl-logo-a {
-    transform: translateX(50px);
-}
-.pl-logo-animation:hover .pl-logo-b {
-    transform: translateX(-50px);
-}
-.pl-logo-animation:hover .pl-logo-name {
-    transform: translateX(-70px);
 }
 
 @keyframes blue-chip {
