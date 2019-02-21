@@ -1,0 +1,22 @@
+/*
+ * Style guide page specific style
+ */
+
+code {
+    background-color: #CCCCCC;
+    font-size: 11pt;
+    padding: 5px 2px 2px;
+    border-radius: 2px;
+}
+
+.code {
+    width: 300px;
+}
+
+.picture {
+    width: 128px;
+}
+
+.icon {
+    font-size: 32px;
+}

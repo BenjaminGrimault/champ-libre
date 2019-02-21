@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous" />
+  <link rel="stylesheet" href="fonts/champ-libre-font.css" />
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/header-footer.css" />
+  <link rel="stylesheet" href="css/images.css" />
+  <link rel="stylesheet" href="css/profile.css" />
+  <script src="js/proto.js"></script>
+</head>
+<body>
+  <div class="pl-header">
+    <div class="pl-navbar">
+      <h1 class="pl-navbar-title">Profil</h1>
+      <a href="#" class="pl-navbar-back" onclick="document.location.href='articles.html'">Retour</a>
+      <div class="pl-navbar-menu">
+        <div class="icon-picto-ajouter-citation"></div>
+      </div>
+    </div>
+  </div>
+  <div class="pl-profile">
+    <div class="pl-profile-quotes">
+      <div class="pl-profile-quote">
+        <div class="pl-profile-quote-text">
+          "Dieu est mort"
+        </div>
+        <div class="pl-profile-quote-autor">
+          Nietzsche
+        </div>
+        <div class="pl-profile-quote-icons">
+          <div class="pl-quote-icon icon icon-picto-facebook"></div>
+          <div class="pl-quote-icon icon icon-picto-linkedin"></div>
+          <div class="pl-quote-icon icon icon-picto-twitter"></div>
+        </div>
+      </div>
+      <div class="pl-profile-quote">
+        <div class="pl-profile-quote-text">
+          "Nietzsche est mort"
+        </div>
+        <div class="pl-profile-quote-autor">
+          Dieu
+        </div>
+        <div class="pl-profile-quote-icons">
+          <div class="pl-quote-icon icon icon-picto-facebook"></div>
+          <div class="pl-quote-icon icon icon-picto-linkedin"></div>
+          <div class="pl-quote-icon icon icon-picto-twitter"></div>
+        </div>
+      </div>
+    </div>
+    <div class="pl-profile-content">
+      <div class="pl-profile-content-top">
+        <div class="pl-profile-content-addquote icon icon-picto-ajouter-citation"
+             onclick="showQuote();"></div>
+        <div class="pl-profile-content-name">Jean Bombeur</div>
+        <div class="pl-profile-content-pseudo">emmental</div>
+      </div>
+      <div class="pl-profile-content-modify-form">
+        <input type="text" class="round" placeholder="Nom"/>
+        <input type="text" class="round" placeholder="Prénom"/>
+        <input type="text" class="round" placeholder="Login"/>
+        <input type="email" class="round" placeholder="Adresse Mail"/>
+        <button type="submit" class="btn btn-success btn-block round" onclick="hideAll()">Valider</button>
+      </div>
+      <div class="pl-profile-content-quote-form">
+        <input type="text" class="round pl-profile-addquote-input" placeholder="Citation"/>
+        <input type="text" class="round" placeholder="Auteur"/>
+        <button type="submit" class="btn btn-success btn-block round" onclick="hideAll()">Valider</button>
+      </div>
+      <div class="pl-profile-content-bottom">
+        <div class="pl-profile-content-modify" onclick="showModify()">Modifier le profil</div>
+      </div>
+    </div>
+  </div>
+  <!--FOOTER-->
+  <div class="pl-footer">
+    <div class="pl-footer-asset pl-footer-asset-blue pl-footer-profile"
+         onclick="document.location.href='profile.html'">
+      <div class="pl-footer-icon icon icon-picto-profil"></div>
+      <div class="pl-footer-icon-label">Profil</div>
+    </div>
+    <div class="pl-footer-asset pl-footer-asset-red pl-footer-quote"
+         onclick="document.location.href='profile.html'">
+      <div class="pl-footer-icon icon icon-picto-citation"></div>
+      <div class="pl-footer-icon-label">Citations</div>
+    </div>
+    <div class="pl-footer-asset pl-footer-asset-yellow pl-footer-article"
+         onclick="document.location.href='articles.html'">
+      <div class="pl-footer-icon icon icon-picto-articles"></div>
+      <div class="pl-footer-icon-label">Articles</div>
+    </div>
+  </div>
+</body>
+</html>

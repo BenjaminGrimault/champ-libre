@@ -1,0 +1,140 @@
+body {
+    font-size: 2rem !important;
+}
+
+.pl-content{
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 120px;
+    overflow: hidden;
+}
+
+/*
+ * HEADER
+ */
+
+.pl-header {
+    text-align: center;
+    vertical-align: bottom;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 5000;
+}
+.pl-navbar {
+    height: 80px;
+    width: 100%;
+    position: sticky;
+}
+.pl-navbar-title {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+.pl-navbar-menu {
+    position: absolute;
+    bottom: 0;
+    right: 35px;
+    content: ''
+}
+.pl-navbar-back {
+    position: absolute;
+    bottom: 0;
+    left: 35px;
+    font-size: 2rem;
+}
+.pl-navbar-back:after {
+    content: "<";
+    position: absolute;
+    left: -20px;
+    color: blue;
+}
+
+.pl-search {
+    position: sticky;
+    height: 66px;
+    width: 90%;
+}
+.pl-searchgroup {
+    height: 56px;
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.pl-searchbutton {
+    height: 56px;
+    width: 56px;
+    margin-left: 20px;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 2rem;
+    padding: 10px;
+    border: none;
+}
+input.pl-searchbar {
+    left: 90px;
+    height: 100%;
+    border: none;
+    margin: 0;
+}
+.pl-searchbar,.pl-searchgroup {
+    font-size: 2rem;
+    position: absolute;
+    bottom: 0;
+}
+
+/*
+ * FOOTER
+ */
+
+.pl-footer{
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    vertical-align: bottom;
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    bottom: 0;
+    z-index: 5000;
+    background: lightgrey;
+}
+.pl-footer-asset{
+    padding: 20px 20px 0 20px;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+}
+.pl-footer-icon{
+    display: inline-flex;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    font-size: 3rem !important;
+}
+.pl-footer-icon::before{
+    height: 50px;
+    width: 50px;
+}
+.pl-footer-icon-label{
+    display: inline-flex;
+}
+.pl-footer-asset:hover{
+    transition: 1s;
+    border-radius: 20px;
+    background-size: 1000% 1000%;
+    background-position: center;
+}

@@ -1,0 +1,39 @@
+/* IMAGES*/
+.pl-main-chips-blue:after{
+    background-image: url(../assets/img/chips/logo-blue.svg);
+}
+.pl-main-chips-blue:before{
+    background-image: url(../assets/img/chips/logo-blue.svg);
+}
+.pl-mini-chips-blue:after{
+    background-image: url(../assets/img/chips/mini-blue.svg);
+}
+.pl-footer-asset-blue:hover{
+    background-image: url(../assets/img/chips/mini-blue.svg);
+}
+
+.pl-main-chips-red:after{
+    background-image: url(../assets/img/chips/logo-red.svg);
+}
+.pl-main-chips-red:before{
+    background-image: url(../assets/img/chips/logo-red.svg);
+}
+.pl-mini-chips-red:after{
+    background-image: url(../assets/img/chips/mini-red.svg);
+}
+.pl-footer-asset-red:hover{
+    background-image: url(../assets/img/chips/mini-red.svg);
+}
+
+.pl-main-chips-yellow:after{
+    background-image: url(../assets/img/chips/yellow-front.svg);
+}
+.pl-main-chips-yellow:before{
+    background-image: url(../assets/img/chips/yellow-front.svg);
+}
+.pl-mini-chips-yellow:after{
+    background-image: url(../assets/img/chips/mini-yellow.svg);
+}
+.pl-footer-asset-yellow:hover{
+    background-image: url(../assets/img/chips/mini-yellow.svg);
+}

@@ -1,0 +1,124 @@
+.pl-profile-quotes {
+    display: block;
+}
+.pl-profile-content-quote-form {
+    display: none;
+}
+.pl-profile-content-modify-form{
+    display: none;
+}
+.pl-profile{
+
+}
+/*------------------------------*/
+.pl-profile-quotes{
+    margin-top: 30px;
+}
+.pl-profile-quote{
+    display: block;
+    margin-top: 30px;
+    padding-right: 60px;
+    border-bottom: 1px solid grey;
+    text-align: right;
+}
+.pl-profile-quote-text{
+    display: block;
+    font-size: 40px;
+}
+.pl-profile-quote-autor{
+    display: block;
+    font-size: 30px;
+    font-style: italic;
+    padding-right: 60px;
+}
+.pl-profile-quote-icons{
+    display: block;
+}
+.pl-quote-icon{
+    display: inline-block;
+}
+/*------------------------------*/
+.pl-profile-content{
+    position: absolute;
+    bottom: 130px;
+    width: 100%;
+}
+.pl-profile-content-top{
+    background: lightgrey;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+.pl-profile-content-name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.pl-profile-content-pseudo{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px 0 0 black,
+                1px 0 0 black,
+                0 -1px 0 black,
+                0 1px 0 black;
+}
+.pl-profile-content-addquote{
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid grey;
+}
+.pl-profile-content-addquote:before{
+    font-size: 100px;
+    line-height: 125px;
+}
+/*------------------------------*/
+.pl-input{
+    border-radius: 20px;
+    margin: 10px 0;
+    width: 100%;
+}
+.pl-button-check{
+    width: 250px;
+    background: green;
+    color: white;
+    text-align: center;
+}
+/*------------------------------*/
+.pl-profile-content-modify-form{
+    text-align: right;
+    margin: 10px 0;
+    width: 100%;
+}
+/*------------------------------*/
+.pl-profile-content-quote-form{
+    text-align: right;
+    margin: 10px 0;
+    width: 100%;
+}
+.pl-profile-addquote-input{
+    margin: 10px 0;
+    height: 400px;
+    vertical-align: bottom;
+}
+/*------------------------------*/
+.pl-profile-content-bottom{
+    background: blue;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+.pl-profile-content-modify{
+    color: white;
+    font-size: 40px;
+    margin: auto;
+}
+/*------------------------------*/

@@ -1,0 +1,75 @@
+/* CARROUSSEL */
+
+.pl-carroussel-wrapper{
+    padding-left: 40px;
+    height: 100%;
+    display: block;
+    overflow-y: hidden;
+    position: relative;
+}
+.pl-carroussel{
+    margin-top: 20px;
+    height: 400px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.pl-carroussel-content{
+    height: 350px;
+    width: auto;
+    display: block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.pl-carroussel-title{
+    height: 50px;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* MINIATURE*/
+.pl-mini-chips{
+    height: 100%;
+    width: 300px;
+    padding: 10px 15px 10px 10px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.pl-mini-chips-img{
+    height: 65%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);;
+}
+.pl-mini-chips-title{
+    height: 35%;
+    width: 100%;
+    padding: 10px;
+    white-space: normal;
+}
+.pl-mini-chips:after{
+    content: "";
+    background-size: 100% 100%;
+    height: 115px;
+    width: 115px;
+    opacity: 0.7;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+.pl-mini-chips:hover:after{
+    transition: 2s;
+    height: inherit;
+    width: inherit;
+    opacity: 0.7;
+    transform: rotate(180deg) scale(3);
+}
